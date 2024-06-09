@@ -1,0 +1,47 @@
+@charset"utf-8";
+
+html{
+  font-size: 20px;
+}
+
+body{
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+
+h1{
+  letter-spacing: 1.2rem;
+  font: size 2rem; 
+  text-shadow: 1px 1px 2px plum;
+
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700
+
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;// <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 700
+  
+  .josefin-sans-<uniquifier> {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  font-weight: <weight>;
+  font-style: normal;
+}
+}
+.underline{
+  text-decoration: underline 3px rgb(115,115,114);
+}
+
+.color-skyblue{
+  color: skyblue;
+}
+.color-pink{
+  color: rgb(255,192,203);
+}
+
+#basic p {
+  font-weight: bold;
+}
